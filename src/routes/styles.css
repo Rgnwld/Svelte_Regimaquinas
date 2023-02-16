@@ -1,0 +1,49 @@
+:root {
+	/* --font-mono: 'Fira Mono', monospace; */
+	--font-body: 'Rubik', sans-serif;
+	--font-title: 'Kanit', sans-serif;
+	--font-subtitle: 'Inter', sans-serif;
+	--color-main: #f9f9f9;
+	--color-accent: #363636;
+	--color-secondary: #d9d9d9;
+	--color-bg-0: #f9f9f9;
+	--color-bg-0-transparent: #f9f9f9cc;
+	--color-bg-1: #363636;
+	--color-bg-1-transparent: #363636cc;
+	--color-title-0: #211e60;
+	--color-subtitle-0: #d92226;
+
+	font-family: var(--font-body);
+	color: var(--color-text);
+
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+.mobileFirst {
+	width: 1100px;
+}
+
+.space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flexend {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
